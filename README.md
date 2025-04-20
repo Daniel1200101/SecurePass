@@ -22,7 +22,7 @@ Each successful step turns one of **five indicator lights** green. Upon completi
 
 ---
 
-### 3️⃣ Volume & Weather Condition Unlock**
+### 3️⃣ Volume & Weather Condition Unlock
 - **Fragment**: `VolumeWeatherUnlock`
 - **How it works**: 
   - Gets current location using GPS.
