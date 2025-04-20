@@ -32,7 +32,7 @@ Each successful step turns one of **five indicator lights** green. Upon completi
     - If temp ≥ 25°C → set volume to **100%**
 - **Tech used**: LocationManager, Retrofit API, AudioManager.
 - **On success**: Light 3 turns green ✅
-
+**To make it work Add your own OpenWeatherMap API key in com/example/securepass/VolumeWeatherUnlock.kt on line 104.**
 ---
 
 ### 4️⃣ Bluetooth Device Unlock
