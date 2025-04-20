@@ -101,7 +101,7 @@ class VolumeWeatherUnlock : Fragment() {
             .build()
 
         val api = retrofit.create(WeatherApiService::class.java)
-        val apiKey = "df2b24c39fa99a69880968d6f5ab9374" // Replace with your actual API key
+        val apiKey = "Add your api key" // Replace with your actual API key
 
         val call = api.getCurrentWeather(lat, lon, apiKey)
         call.enqueue(object : Callback<WeatherResponse> {
