@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/voiceCommandTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Say a voice command"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Button to start voice recognition -->
+    <Button
+        android:id="@+id/listenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Listening"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- TextView for displaying recognized speech -->
+    <TextView
+        android:id="@+id/recognizedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recognized text will appear here"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginBottom="24dp" />
+
+    <!-- ProgressBar for displaying listening animation -->
+    <ProgressBar
+        android:id="@+id/voiceProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:indeterminate="true" />
+
+</LinearLayout>

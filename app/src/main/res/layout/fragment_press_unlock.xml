@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pressContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@android:color/white"
+    android:layoutDirection="ltr">
+
+    <!-- Arrow Buttons for Direction -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <!-- Up Button -->
+        <ImageButton
+            android:id="@+id/buttonUp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/button_background"
+            android:src="@drawable/ic_arrow_up"
+            android:contentDescription="Up"
+            android:scaleType="centerInside"
+            app:tint="@color/white" />
+
+        <!-- Horizontal Layout for Left, Down, and Right Buttons -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <!-- Left Button -->
+            <ImageButton
+                android:id="@+id/buttonLeft"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_background"
+                android:src="@drawable/ic_arrow_left"
+                android:contentDescription="Left"
+                android:scaleType="centerInside"
+                app:tint="@color/white" />
+
+            <!-- Down Button -->
+            <ImageButton
+                android:id="@+id/buttonDown"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/button_background"
+                android:src="@drawable/ic_arrow_down"
+                android:contentDescription="Down"
+                android:scaleType="centerInside"
+                app:tint="@color/white" />
+
+            <!-- Right Button -->
+            <ImageButton
+                android:id="@+id/buttonRight"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_background"
+                android:src="@drawable/ic_arrow_right"
+                android:contentDescription="Right"
+                android:scaleType="centerInside"
+                app:tint="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Reset Button -->
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Pattern"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center" />
+
+</FrameLayout>
