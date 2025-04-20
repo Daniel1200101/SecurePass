@@ -33,7 +33,7 @@ Each successful step turns one of **five indicator lights** green. Upon completi
 - **Tech used**: LocationManager, Retrofit API, AudioManager.
   
 
-**To make it work Add your own OpenWeatherMap API key in com/example/securepass/VolumeWeatherUnlock.kt on line 104.**
+**To make it work : Add your own OpenWeatherMap API key in com/example/securepass/VolumeWeatherUnlock.kt on line 104.**
 ---
 
 ### 4️⃣ Bluetooth Device Unlock
