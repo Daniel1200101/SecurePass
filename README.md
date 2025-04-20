@@ -10,7 +10,7 @@ Each successful step turns one of **five indicator lights** green. Upon completi
 - **Fragment**: `VoiceCommandFragment`
 - **How it works**: The user must say a predefined keyword (e.g., `"daniel"`).
 - **Tech used**: Android Speech Recognition.
-- **On success**: Light 1 turns green ✅
+-
 
 ---
 
@@ -18,7 +18,7 @@ Each successful step turns one of **five indicator lights** green. Upon completi
 - **Fragment**: `PressUnlockFragment`
 - **How it works**: The user presses directional buttons based on the current time (e.g., 20:21 = 2 right, 0 left, 2 up, 1 down).
 - **Tech used**: Button press detection + current time logic.
-- **On success**: Light 2 turns green ✅
+- 
 
 ---
 
@@ -31,7 +31,7 @@ Each successful step turns one of **five indicator lights** green. Upon completi
     - If temp < 25°C → set volume to **0%**
     - If temp ≥ 25°C → set volume to **100%**
 - **Tech used**: LocationManager, Retrofit API, AudioManager.
-- **On success**: Light 3 turns green ✅.
+- 
 
 **To make it work Add your own OpenWeatherMap API key in com/example/securepass/VolumeWeatherUnlock.kt on line 104.**
 ---
@@ -40,7 +40,7 @@ Each successful step turns one of **five indicator lights** green. Upon completi
 - **Fragment**: `BluetoothUnlock`
 - **How it works**: Unlocks when a specific Bluetooth headset (e.g., `"Baseus Bowie M2s"`) is connected.
 - **Tech used**: BluetoothAdapter, BroadcastReceiver.
-- **On success**: Light 4 turns green ✅
+  
 
 ---
 
@@ -51,7 +51,7 @@ Each successful step turns one of **five indicator lights** green. Upon completi
   - ML Kit OCR extracts handwritten text.
   - Passcode = difference between hour digits and minute digits (e.g., 14:32 → |1-4||3-2| → passcode: `31`)
 - **Tech used**: ML Kit Text Recognition, CanvasView.
-- **On success**: Light 5 turns green ✅
+
 
 
 
