@@ -1,4 +1,4 @@
-package com.example.securepass.framents
+package com.example.securepass.fragments
 
 import android.graphics.Bitmap
 import android.os.Bundle

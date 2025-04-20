@@ -1,4 +1,4 @@
-package com.example.securepass.framents
+package com.example.securepass.fragments
 
 import android.Manifest
 import android.bluetooth.BluetoothAdapter

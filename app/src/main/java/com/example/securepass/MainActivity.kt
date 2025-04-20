@@ -7,8 +7,8 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import com.example.securepass.framents.BluetoothUnlock
-import com.example.securepass.framents.HoursAndMinutes
+import com.example.securepass.fragments.BluetoothUnlock
+import com.example.securepass.fragments.HoursAndMinutes
 
 class MainActivity : AppCompatActivity() {
 
