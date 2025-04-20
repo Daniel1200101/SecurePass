@@ -35,7 +35,7 @@ Each successful step turns one of **five indicator lights** green. Upon completi
 
 ---
 
-### 4️⃣ Bluetooth Device Unlock**
+### 4️⃣ Bluetooth Device Unlock
 - **Fragment**: `BluetoothUnlock`
 - **How it works**: Unlocks when a specific Bluetooth headset (e.g., `"Baseus Bowie M2s"`) is connected.
 - **Tech used**: BluetoothAdapter, BroadcastReceiver.
@@ -43,7 +43,7 @@ Each successful step turns one of **five indicator lights** green. Upon completi
 
 ---
 
-### 5️⃣ **Handwritten Time-Derived Code Unlock**
+### 5️⃣ Handwritten Time-Derived Code Unlock
 - **Fragment**: `HoursAndMinutes`
 - **How it works**: 
   - User draws digits on canvas.
