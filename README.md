@@ -10,7 +10,7 @@ Each successful step turns one of **five indicator lights** green. Upon completi
 - **Fragment**: `VoiceCommandFragment`
 - **How it works**: The user must say a predefined keyword (e.g., `"daniel"`).
 - **Tech used**: Android Speech Recognition.
--
+
 
 ---
 
@@ -18,7 +18,7 @@ Each successful step turns one of **five indicator lights** green. Upon completi
 - **Fragment**: `PressUnlockFragment`
 - **How it works**: The user presses directional buttons based on the current time (e.g., 20:21 = 2 right, 0 left, 2 up, 1 down).
 - **Tech used**: Button press detection + current time logic.
-- 
+  
 
 ---
 
@@ -31,7 +31,7 @@ Each successful step turns one of **five indicator lights** green. Upon completi
     - If temp < 25°C → set volume to **0%**
     - If temp ≥ 25°C → set volume to **100%**
 - **Tech used**: LocationManager, Retrofit API, AudioManager.
-- 
+  
 
 **To make it work Add your own OpenWeatherMap API key in com/example/securepass/VolumeWeatherUnlock.kt on line 104.**
 ---
