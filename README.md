@@ -1,6 +1,6 @@
 # 🔐 SecurePass – Multi-Step Unlock System
 
-SecurePass is a unique multi-layered phone unlock system based on real-time context, sensor input, and user interaction. The app guides the user through **five unlock steps**, each using a different method to verify identity or awareness.
+SecurePass is a unique multi-layered phone unlock system based on real-time context, sensor input, and user interaction. The app currently guides the user through **five unlock steps**, each using a different method to verify identity or awareness but later it should be secretly kept to the user.
 
 Each successful step turns one of **five indicator lights** green. Upon completing all steps, the device or protected feature is **fully unlocked**.
 
